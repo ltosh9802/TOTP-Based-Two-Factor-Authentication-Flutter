@@ -48,8 +48,9 @@ class _MainContentState extends State<MainContent> {
     setState(() {
       
     if(userslist.isEmpty){
-      firsttime="This looks empty.";
+      firsttime="Click '+' to add users";
     }
+    
     });
 
 }
